@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    background-color: rgb(24, 23, 23);
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.home_image{
+   align-items: center;
+
+}
+
+.home__image img{
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+    border: 20px solid #fff;
+    margin: auto;
+    display: block;
+}
+
+.home_right{
+    color: white;
+    padding: 3rem;
+}
+.name{
+    color: red;
+    font-size: 2rem;
+    margin-top: 5rem;
+    font-weight: 600;
+    text-align: center;
+}
+.job{
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+}
+.location{
+    color: red;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.desc{
+    font-size: 17px;
+}

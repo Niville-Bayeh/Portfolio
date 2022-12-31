@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+    padding: .5rem;
+    
+}
+.navbar-nav{
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    align-content: center;
+}
+ .navItem__link{
+     padding: 2rem;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+}
+
+

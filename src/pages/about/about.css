@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about__me{
+    background-color: rgb(84, 81, 81);
+    padding: 5rem;
+}
+
+.about_left{
+    padding-right: 1rem;
+}
+
+.about_right{
+    padding-right: 1rem;
+}
+
+.contact{
+    margin-top: 6rem;
+}
+.sm-title{
+    color: red;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: 600;
+    
+}
+.lg-title{
+    font-size: 5rem;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.text{
+    color: white;
+    font-size: 17px;
+}
+.about-image{
+    width: 90%;
+    border-radius: 5%;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    
+}
+.a-name{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 3px;
+    font-weight: 600;
+}
+.a-job{
+    color: #fff;
+    font-size: 25px;
+}
+.cam{
+    color: red;
+}
+.text_2{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+table{
+    color:#fff;
+    text-align: left;
+    line-height: 2.2;
+    font-size: 20px;
+}
+.btn{
+    margin-top: 3rem;
+    border: none;
+    border-radius: 3px;
+    color: white !important;
+    background-color: red !important;
+}
+.btn:hover{
+    background-color: aqua !important;
+}
+
+th{
+    padding-right: 7rem;
+}

@@ -1,24 +1,21 @@
-import React, { Component } from "react";
-import { BrowserRouter as Routes, Route, Router } from "react-router-dom";
-import Home from "./component/Home";
-import About from "./component/About";
-import Contact from "./component/Contact";
-import Navbar from "./component/Navbar";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/home/Home";
+import Contact from "./pages/contact/Contact";
+import About from "./pages/about/About";
+import Profile from "./pages/profile/Profile";
 
-class App extends Component {
-  render() {
-    return (
-      <Router>
-        <>
-          <Navbar />
-          <Routes>
-            <Route exact path="/" component={Home} />
-            <Route path="/Contact" component={Contact} />
-            <Route path="/About" component={About} />
-          </Routes>
-        </>
-      </Router>
-    );
-  }
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
+  );
 }
+
 export default App;
