@@ -1,22 +1,15 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 .home{
     background-color: rgb(24, 23, 23);
-    padding-bottom: 3rem;
-    padding-top: 3rem;
 }
 
 .home_image{
    align-items: center;
-
+   margin-top: 5rem !important;
 }
 
 .home__image img{
     width: 50%;
-    height: 50%;
     border-radius: 100%;
     border: 20px solid #fff;
     margin: auto;
@@ -25,7 +18,8 @@
 
 .home_right{
     color: white;
-    padding: 3rem;
+    margin-top: 1rem !important;
+    padding: rem;
 }
 .name{
     color: red;
