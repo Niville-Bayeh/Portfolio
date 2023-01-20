@@ -5,15 +5,15 @@ import "./home.css";
 import About from "../about/About";
 import Profile from "../profile/Profile";
 import Contact from "../contact/Contact";
+import Footer from "../footer/footer";
+
 
 function Home() {
   return (
     <>
       <Row className="home">
         <Col md={12}>
-          <div className="home__image">
             <img src="/image1.jpg" alt="home" className="image"/>
-          </div>
         </Col>
         <Col md={12}>
           <div className="home_right">
@@ -35,6 +35,7 @@ function Home() {
       <About />
       <Profile />
       <Contact />
+      <Footer/>
     </>
   );
 }

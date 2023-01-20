@@ -10,7 +10,7 @@ function Profile() {
     <>
       <div className="profile__section">
         <p className="sm-title">Educational Profile</p>
-        <h3 className="lg-title">EDUCATIONAL PROFILE</h3>
+        <h3 className="lg-title">Educational Profile</h3>
         <Row gutter={2}>
           <Col className="gutter-row" md={6}>
             <div style={style}>

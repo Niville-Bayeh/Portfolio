@@ -34,13 +34,13 @@ function Contact() {
               </p>
             </section>
             <div className="iconsection">
-              <p className="icon-text mb-0">
+              <p className="icon-text">
                 <MailOutlined />
                 bayehniville@gmail.com
               </p>
             </div>
             <section className="iconsection">
-              <p className="icon-text mb-0">
+              <p className="icon-text">
                 <EnvironmentOutlined />
                 Mile-2 Nkwen Bamenda
               </p>

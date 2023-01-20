@@ -1,16 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .contact__page{
     background-color: rgb(84, 81, 81);
     padding: 3rem;
 }
 
 .sec__title{
-    font-size: 4rem;
+    font-size: 3rem;
     color: #fff;
     font-weight: 700;
     margin-top: 0px;
@@ -18,6 +12,6 @@
 }
 
 .text_1{
-    font-size: 25px;
+    font-size: 20px;
     color: white;
 }

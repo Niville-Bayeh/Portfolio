@@ -1,19 +1,17 @@
 
 .home{
     background-color: rgb(24, 23, 23);
+    padding: 3rem;
 }
-
-.home_image{
-   align-items: center;
-   margin-top: 5rem !important;
-}
-
-.home__image img{
-    width: 50%;
+.image{
     border-radius: 100%;
-    border: 20px solid #fff;
+    border: 10px solid #fff;
+    width: 50%;
+    display: flex;
     margin: auto;
-    display: block;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important; 
+    
 }
 
 .home_right{
@@ -30,13 +28,13 @@
 }
 .job{
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 800;
     text-align: center;
 }
 .location{
     color: red;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 800;
 }
 
