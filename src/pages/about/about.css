@@ -56,7 +56,7 @@ table{
     line-height: 2.2;
     font-size: 20px;
 }
-.btn{
+/* .btn{
     margin-top: 3rem;
     border: none;
     border-radius: 3px;
@@ -65,7 +65,7 @@ table{
 }
 .btn:hover{
     background-color: aqua !important;
-}
+} */
 
 th{
     padding-right: 2rem;

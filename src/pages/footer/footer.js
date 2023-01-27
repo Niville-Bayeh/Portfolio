@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
      <div className="footer">
-      <p>&#169; Posted by: Niville Bayeh, contact info <a href="www.yahoo.com">nivillebayeh@yahoo.com</a></p>
+      <p className='footer-text'>&#169; Posted by: Niville Bayeh, contact info <a href="www.yahoo.com">nivillebayeh@yahoo.com</a></p>
     </div>
     </>
    

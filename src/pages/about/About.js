@@ -1,6 +1,5 @@
 import React from "react";
-import { Row, Col, Button } from "antd";
-import { DownloadOutlined } from "@ant-design/icons";
+import { Row, Col } from "antd";
 import "../../App.css";
 import "./about.css";
 
@@ -65,10 +64,10 @@ function About() {
               </tbody>
             </table>
           </section>
-          <Button type="Link" className="btn">
+          {/* <Button type="Link" className="btn">
             <DownloadOutlined />
             Download CV
-          </Button>
+          </Button> */}
         </Col>
       </Row>
     </>

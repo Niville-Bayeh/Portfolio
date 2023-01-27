@@ -1,18 +1,9 @@
 .footer{
-    height: 50px;
-    width: 100%;
     background-color: black;
-    display: flex;
-    padding-top: 20px;
-    
+    color: white;   
 }
-
-.footer a{
-    text-decoration: none;
-    color: #fff;
+.footer-text{
+    text-align: center !important;
+    padding: 1rem;
+    font-size: 1rem;
 }
-
- .footer p{
-   color: white; 
-   justify-content: center; 
- }
