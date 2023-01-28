@@ -1,4 +1,18 @@
-.form1{
-    display: block !important;
+.ant-form-item-label > label {
     color: white !important;
+    font-size: medium;
+    font-weight: bold;
+}
+.ant-btn{
+    background-color: red;
+    border: none;
+}
+.ant-btn > span{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.ant-btn:hover{
+    background-color: wheat;
+    color: white;
 }
